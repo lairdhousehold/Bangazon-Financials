@@ -187,8 +187,8 @@ namespace BangazonProductRevenueReports
                             Dictionary<string, int> productsReportValues = new Dictionary<string, int>();
                             while (reader.Read())
                             {
-
-                                // Dictionary<string, int> productsReportValues = new Dictionary<string, int>();
+                               
+                               // Dictionary<string, int> productsReportValues = new Dictionary<string, int>();
                                 if (productsReportValues.ContainsKey(reader[1].ToString()))
                                 {
                                     productsReportValues[reader[1].ToString()] += int.Parse(reader[3].ToString());
